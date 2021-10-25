@@ -1,0 +1,163 @@
+/* --------------------------------- Common CSS Start --------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    color: #22223B;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 0;
+}
+/* --------------------------------- Common CSS End --------------------------------- */
+
+/* --------------------------------- Nav Start --------------------------------- */
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+} 
+
+nav .navbar-brand img {
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    font-size: none;
+}
+
+nav .navbar-brand {
+    padding: 0;
+    font-size: 15px;
+}
+
+nav .navbar-nav li a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #22223B;
+    padding: 35px 31px !important;
+    transition: all linear .3s;
+}
+
+nav .navbar-nav li a:hover {
+    background-color: #F2E9E4;
+    color: #22223B;
+}
+/* --------------------------------- Nav End --------------------------------- */
+
+/* --------------------------------- Banner start --------------------------------- */
+#banner {
+    background-color: #22223B;
+    height: 420px;
+    width: 100%;
+}
+
+#banner .banner_img {
+    width: 408px;
+    position: absolute;
+    top: 0;
+    left: 232px;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(74,78,105,0.19);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(74,78,105,0.19);
+    box-shadow: 0px 0px 11px 0px rgba(74,78,105,0.19);
+}
+
+#banner .banner_img img{
+    width: 100%;
+    display: block;
+}
+
+#banner .banner_text {
+    padding: 147px 0;
+    margin-left: 105px;
+}
+
+#banner .banner_text .banner_heading {
+    font-family: 'Heebo', sans-serif;
+    font-size: 65px;
+    font-weight: 900;
+    color: #fff;
+}
+
+#banner .banner_text .banner_sub_heading {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    color: #fff;
+}
+/* --------------------------------- Banner End --------------------------------- */
+
+
+/* --------------------------------- Who am i start --------------------------------- */
+#who_am_i {
+    margin-top: 214px;
+}
+
+#who_am_i .about_me_text {
+    margin: 0 121px;
+}
+
+#who_am_i .about_me_text p {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #9A8C98;
+    line-height: 2;
+}
+
+#who_am_i .about_name {
+    margin: 0 121px;
+}
+
+#who_am_i .about_name p {
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    color: #22223B;
+    line-height: 2;
+    margin-top: 43px;
+}
+
+#who_am_i .contact_me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 84px;
+}
+
+#who_am_i .contact_me p {
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: #22223B;
+    line-height: 1;
+    padding-right: 49px;
+}
+
+#who_am_i .contact_me .icons i {
+    height: 37px;
+    width: 37px;
+    font-size: 20px;
+    background-color: #F2E9E4;
+    color: #22223B;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.8;
+    margin: 0 10px;
+    transition: all linear .3s;
+}
+
+#who_am_i .contact_me .icons i:hover {
+    background-color: #22223B;
+    color: #F2E9E4;
+}
+/* --------------------------------- Who am i End --------------------------------- */
