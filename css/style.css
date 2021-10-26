@@ -16,6 +16,17 @@ a {
 p {
     margin-bottom: 0;
 }
+
+.main_box {
+    margin: 0 121px;
+}
+
+.section_heading {
+    font-family: 'Heebo', sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    color: #22223B;
+}
 /* --------------------------------- Common CSS End --------------------------------- */
 
 /* --------------------------------- Nav Start --------------------------------- */
@@ -161,3 +172,40 @@ nav .navbar-nav li a:hover {
     color: #F2E9E4;
 }
 /* --------------------------------- Who am i End --------------------------------- */
+
+/* --------------------------------- Education start --------------------------------- */
+ 
+#education {
+    margin-top: 165px;
+}
+
+.table {
+    margin-top: 33px;
+}
+
+.table > :not(caption) > * > * {
+	padding: 30px 0;
+}
+
+#education .table tr td .degree_name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #22223B;
+}
+
+#education .table tr td .institution_name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #22223B;
+    margin-top: 15px;
+}
+
+#education .table tr td .table_text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #22223B;
+}
+/* --------------------------------- Education End --------------------------------- */
