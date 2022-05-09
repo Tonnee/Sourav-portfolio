@@ -2,14 +2,14 @@
 * {
     margin: 0;
     padding: 0;
-    color: #22223B;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
-    color: #272C48;
+    line-height: 2;
+    color: #22223B;
 }
 
 ol, ul {
@@ -29,10 +29,17 @@ p {
 }
 
 .section_heading {
-    font-family: 'Heebo', sans-serif;
     font-size: 35px;
-    font-weight: 900;
-    color: #272C48;
+    font-weight: 800;
+    color: #22223B;
+}
+
+.orange_text {
+    color: #ED5A14;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
 }
 /* --------------------------------- Common CSS End --------------------------------- */
 
@@ -40,6 +47,7 @@ p {
 .navbar {
     padding-top: 0;
     padding-bottom: 0;
+    background-color: #fff;
 } 
 
 nav .navbar-brand img {
@@ -56,6 +64,7 @@ nav .navbar-brand {
 
 nav .navbar-nav li a {
     font-size: 16px;
+    text-transform: uppercase;
     color: #272C48;
     padding: 35px 31px !important;
     transition: all linear .2s;
@@ -68,44 +77,83 @@ nav .navbar-nav li a:hover {
 
 /* --------------------------------- Banner start --------------------------------- */
 #banner {
-    background-color: #272C48;
-    height: 420px;
+    background: rgb(242,242,242);
+    background: -moz-linear-gradient(0deg, rgba(242,242,242,1) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(242,242,242,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg, rgba(242,242,242,1) 0%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f2f2",endColorstr="#ffffff",GradientType=1);
+}
+
+.banner_box {
+    display: flex;
+    height: calc(100vh - 94px);
     width: 100%;
 }
 
-#banner .banner_img {
-    width: 408px;
+.banner_text_box {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner_heading {
+    font-size: 49px;
+    font-weight: 800;
+    margin-bottom: 50px;
+    margin-top: 150px;
+}
+
+.banner_img_box {
+    width: 50%;
+    position: relative;
+}
+
+.banner_img_box .banner_img_background {
     position: absolute;
-    top: 0;
-    left: 232px;
-    -webkit-box-shadow: 0px 0px 11px 0px rgba(74,78,105,0.19);
-    -moz-box-shadow: 0px 0px 11px 0px rgba(74,78,105,0.19);
-    box-shadow: 0px 0px 11px 0px rgba(74,78,105,0.19);
+    bottom: 0;
+    right: 0;
+    height: 87%;
+    transition: right 1s;
 }
 
-#banner .banner_img img{
-    width: 100%;
-    display: block;
+.banner_img_box .banner_img_main {
+    position: absolute;
+    bottom: 0;
+    right: 80px;
+    height: 85%;
+    transition: right 1s;
 }
 
-#banner .banner_text {
-    padding: 147px 0;
-    margin-left: 105px;
+.banner_img_box:hover .banner_img_background {
+    right: 50px;
 }
 
-#banner .banner_text .banner_heading {
-    font-family: 'Heebo', sans-serif;
-    font-size: 65px;
-    font-weight: 900;
-    color: #fff;
+.banner_img_box:hover .banner_img_main {
+    right: 65px;
 }
 
-#banner .banner_text .banner_sub_heading {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 27px;
-    font-weight: 400;
-    color: #fff;
+.banner_social {
+    display: flex;
 }
+
+.banner_social .icons i {
+    height: 37px;
+    width: 37px;
+    font-size: 20px;
+    background-color: #fff;
+    color: #4A4E69;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.8;
+    margin-right: 34px;
+    transition: all linear .3s;
+}
+
+.banner_social .icons i:hover {
+    color: #ED5A14;
+}
+
 /* --------------------------------- Banner End --------------------------------- */
 
 
@@ -142,39 +190,6 @@ nav .navbar-nav li a:hover {
     margin-top: 43px;
 }
 
-#who_am_i .contact_me {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 84px;
-}
-
-#who_am_i .contact_me p {
-    font-family: 'Heebo', sans-serif;
-    font-size: 20px;
-    font-weight: 900;
-    color: #272C48;
-    line-height: 1;
-    padding-right: 49px;
-}
-
-#who_am_i .contact_me .icons i {
-    height: 37px;
-    width: 37px;
-    font-size: 20px;
-    background-color: #F2E9E4;
-    color: #22223B;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 1.8;
-    margin: 0 10px;
-    transition: all linear .3s;
-}
-
-#who_am_i .contact_me .icons i:hover {
-    background-color: #272C48;
-    color: #F2E9E4;
-}
 /* --------------------------------- Who am i End --------------------------------- */
 
 /* --------------------------------- Education start --------------------------------- */
