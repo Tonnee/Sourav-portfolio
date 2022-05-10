@@ -66,12 +66,19 @@ nav .navbar-nav li a {
     font-size: 16px;
     text-transform: uppercase;
     color: #272C48;
-    padding: 35px 31px !important;
+    padding: 30px 0 30px 60px !important;
     transition: all linear .2s;
 }
 
 nav .navbar-nav li a:hover {
     color: #ED5A14;
+}
+
+.scrolled {
+    -webkit-box-shadow: 0px 2px 14px 0px rgba(0,0,0,0.20);
+    -moz-box-shadow: 0px 2px 14px 0px rgba(0,0,0,0.20);
+    box-shadow: 0px 2px 14px 0px rgba(0,0,0,0.20);
+    transition: all .3s ease-in-out;
 }
 /* --------------------------------- Nav End --------------------------------- */
 
@@ -95,13 +102,13 @@ nav .navbar-nav li a:hover {
     height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
 }
 
 .banner_heading {
     font-size: 49px;
     font-weight: 800;
     margin-bottom: 50px;
-    margin-top: 150px;
 }
 
 .banner_img_box {
@@ -135,6 +142,7 @@ nav .navbar-nav li a:hover {
 
 .banner_social {
     display: flex;
+    padding-bottom: 80px;
 }
 
 .banner_social .icons i {
@@ -150,6 +158,16 @@ nav .navbar-nav li a:hover {
     transition: all linear .3s;
 }
 
+.banner_social .icons .whatsapp {
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.banner_social .icons .phone {
+    font-size: 18px;
+    line-height: 2;
+}
+
 .banner_social .icons i:hover {
     color: #ED5A14;
 }
@@ -159,7 +177,7 @@ nav .navbar-nav li a:hover {
 
 /* --------------------------------- Who am i start --------------------------------- */
 #who_am_i {
-    margin-top: 214px;
+    margin-top: 150px;
 }
 
 #who_am_i .about_me_text {
@@ -168,11 +186,6 @@ nav .navbar-nav li a:hover {
 
 #who_am_i .about_me_text p {
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    color: #9A8C98;
-    line-height: 2;
 }
 
 #who_am_i .about_name {
@@ -181,12 +194,7 @@ nav .navbar-nav li a:hover {
 
 #who_am_i .about_name p {
     text-align: right;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
     font-style: italic;
-    font-weight: 400;
-    color: #272C48;
-    line-height: 2;
     margin-top: 43px;
 }
 
