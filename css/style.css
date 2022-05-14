@@ -24,10 +24,6 @@ p {
     margin-bottom: 0;
 }
 
-.main_box {
-    margin: 0 121px;
-}
-
 .section_heading {
     font-size: 35px;
     font-weight: 800;
@@ -40,6 +36,14 @@ p {
 
 .mb-100 {
     margin-bottom: 100px;
+}
+
+.mb-65 {
+    margin-bottom: 65px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
 }
 /* --------------------------------- Common CSS End --------------------------------- */
 
@@ -154,7 +158,7 @@ nav .navbar-nav li a:hover {
     border-radius: 50%;
     text-align: center;
     line-height: 1.8;
-    margin-right: 34px;
+    margin-right: 30px;
     transition: all linear .3s;
 }
 
@@ -180,16 +184,8 @@ nav .navbar-nav li a:hover {
     margin-top: 150px;
 }
 
-#who_am_i .about_me_text {
-    margin: 0 121px;
-}
-
 #who_am_i .about_me_text p {
     text-align: center;
-}
-
-#who_am_i .about_name {
-    margin: 0 121px;
 }
 
 #who_am_i .about_name p {
@@ -203,7 +199,7 @@ nav .navbar-nav li a:hover {
 /* --------------------------------- Education start --------------------------------- */
  
 #education {
-    margin-top: 165px;
+    margin-top: 200px;
 }
 
 .table {
@@ -215,24 +211,119 @@ nav .navbar-nav li a:hover {
 }
 
 #education .table tr td .degree_name {
-    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    color: #272C48;
 }
 
 #education .table tr td .institution_name {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #272C48;
     margin-top: 15px;
 }
 
-#education .table tr td .table_text {
-    font-family: 'Open Sans', sans-serif;
+#education .table tr .table_text {
     font-size: 18px;
-    font-weight: 400;
-    color: #272C48;
+    font-weight: 500;
 }
 /* --------------------------------- Education End --------------------------------- */
+
+/* --------------------------------- Skill start --------------------------------- */
+#skill {
+    margin-top: 120px;
+}
+
+.skill_img_background {
+    height: 530px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.skill_img_box {
+    position: relative;
+}
+
+.skill_img_bar {
+    background-color: #ED5A14;
+    border-radius: 38px 38px 6px 6px;
+    width: 50%;
+}
+
+.bar_1 {
+    height: 35%;
+    transition: ease-in-out .3s;
+}
+
+.bar_2 {
+    height: 70%;
+    transition: ease-in-out .3s;
+}
+
+.skill_main_img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.skill_main_img img {
+    display: block;
+    width: 100%;
+}
+
+.skill_img_box:hover .bar_1 {
+    height: 70%;
+}
+
+.skill_img_box:hover .bar_2 {
+    height: 35%;
+}
+
+.skill_details_box {
+    margin-top: 80px;
+}
+
+.bar .info span {
+    font-weight: 500;
+}
+
+.bar .progress_line {
+    height: 10px;
+    width: 100%;
+    background-color: rgb(237, 90, 20, .15);
+    border-radius: 5px;
+    position: relative;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s cubic-bezier(1, 1, 1, 1) forwards;
+}
+
+.bar .progress_line span {
+    height: 100%;
+    background-color: #22223B;
+    border-radius: 5px;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s 1s cubic-bezier(1, 1, 1, 1) forwards;
+}
+
+@keyframes animate {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.bar .html span{
+    width: 90%;
+}
+
+.bar .css span{
+    width: 80%;
+} 
+
+.bar .JavaScript span{
+    width: 60%;
+} 
+
+.bar .php span{
+    width: 70%;
+}
+
+/* --------------------------------- Skill end --------------------------------- */
