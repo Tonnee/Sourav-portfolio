@@ -10,11 +10,11 @@ document.addEventListener('scroll', function(e) {
     }
 });
 
-let skillBar = document.getElementById('skill-bar');
-let progressLine = document.getElementById('p-line');
+// let skillBar = document.getElementById('skill-bar');
+// let progressLine = document.getElementById('p-line');
 
-document.addEventListener('scroll', function (e) {
-    if(window.scrollY > (skillBar.offsetTop + skillBar.offsetHeight)) {
-        progressLine.classList.add('barAnimated');
-    }
-});
+// document.addEventListener('scroll', function (e) {
+//     if(window.scrollY > skillBar.offsetHeight) {
+//         progressLine.classList.add('barAnimated');
+//     }
+// });
