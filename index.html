@@ -30,25 +30,25 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Who am I?</a>
+                        <a class="nav-link active" aria-current="page" href="#who_am_i">Who am I?</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Education</a>
+                        <a class="nav-link" href="#education">Education</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Skills</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
+                        <a class="nav-link" href="#skill">Skills</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Publications</a>
+                        <a class="nav-link" href="#project">Projects</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#publication">Publications</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact_part">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -236,7 +236,7 @@
     
                 <div class="p_cart">
                     <div class="project_img">
-                        <img src="images/project1.png" alt="project image">
+                        <img src="images/project2.png" alt="project image">
                     </div>
     
                     <div class="project_details center_text">
@@ -250,7 +250,7 @@
     
                 <div class="p_cart">
                     <div class="project_img">
-                        <img src="images/project1.png" alt="project image">
+                        <img src="images/project3.png" alt="project image">
                     </div>
     
                     <div class="project_details center_text">
@@ -368,6 +368,11 @@
 
     <!-- ----------------------- Footer start ----------------------- -->
     <footer>
+        <!-- ------------------------------ Return to Top start ------------------------------ -->
+        <a href="javascript:" id="return-to-top">
+            <i class="fas fa-angle-up"></i>
+        </a>
+        <!-- ------------------------------ Return to Top end ------------------------------ -->
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -381,6 +386,24 @@
         </div>
     </footer>
     <!-- ----------------------- Footer end ----------------------- -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+
+    <script>
+        // ===== Return to Top ==== 
+        $(window).scroll(function() {
+            if ($(this).scrollTop() >= 200) {        // If page is scrolled more than 200px
+                $('#return-to-top').fadeIn(200);    // Fade in the arrow
+            } else {
+                $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+            }
+        });
+
+        $('#return-to-top').click(function() {      // When arrow is clicked
+            $('body,html').animate({
+                scrollTop : 0                       // Scroll to top of body
+            }, 500);
+        });
+    </script>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>

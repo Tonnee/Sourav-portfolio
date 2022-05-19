@@ -1,4 +1,8 @@
 /* --------------------------------- Common CSS Start --------------------------------- */
+html {
+    scroll-padding-top: 150px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -512,6 +516,33 @@ textarea:focus-visible {
 /* --------------------------------- Find me end --------------------------------- */
 
 /* --------------------------------- Footer start --------------------------------- */
+#return-to-top {
+	opacity: 1;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background: #22223B;
+	width: 50px;
+	height: 50px;
+	display: none;
+	text-decoration: none;
+	border-radius: 50%;
+	z-index: 100000;
+	text-align: center;
+    transition: all linear .3s;
+}
+
+#return-to-top i {
+	color: #fff;
+	font-size: 32px;
+	line-height: 47px;
+    transition: all linear .3s;
+}
+
+#return-to-top:hover {
+    background-color: #ED5A14;
+}
+
 footer {
     margin-top: 150px;
     background-color: #000000;
