@@ -6,6 +6,7 @@ html {
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -547,7 +548,7 @@ footer {
     margin-top: 150px;
     background-color: #000000;
     color: #4A4E69;
-    padding: 30px;
+    padding: 30px 100px;
 }
 
 .download_resume {

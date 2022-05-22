@@ -1,0 +1,318 @@
+/*  ---------------------- X-Small Device Start ----------------------  */
+@media (min-width: 320px) and (max-width: 575px){
+    .navbar {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    .navbar i {
+        color: #22223B;
+    }
+
+    nav .navbar-nav li a {
+        padding: 20px 60px !important;
+        text-align: center;
+    }
+
+    .navbar-nav {
+        margin-top: 30px;
+        border-bottom: 1px solid #22223B;
+    }
+
+    .banner_box {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .banner_text_box {
+        width: 100%;
+        margin-top: 80px;
+    }
+
+    .banner_img_box {
+        width: 100%;
+    }
+
+    .banner_img_box .banner_img_background {
+        position: relative;
+    }
+
+    #education {
+        margin-top: 150px;
+    }
+
+    .table > :not(caption) > * > * {
+        width: 50%;
+    }
+
+    #education .table tr td .degree_name {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    #education .table tr td .institution_name {
+        margin-top: 10px;
+    }
+
+    #education .table tr .table_text {
+        font-size: 16px;
+        width: 20%;
+        text-align: right;
+    }
+
+    #education .table tr .table_text {
+        font-size: 16px;
+        width: 20%;
+        text-align: right;
+    }
+
+    #skill {
+        margin-top: 50px;
+    }
+
+    #project {
+        margin-top: 110px;
+    }
+
+    .p_box {
+        flex-direction: column;
+    }
+
+    .p_cart {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+
+    #publication {
+        margin-top: 110px;
+    }
+
+    #contact_part {
+        margin-top: 90px;
+    }
+
+    .form_inner {
+        margin-bottom: 0;
+        flex-direction: column;
+    }
+
+    .form_wrapper {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .find_me_box {
+        flex-direction: column;
+    }
+
+    .find_me_wrapper {
+        margin-bottom: 40px;
+    }
+
+    footer {
+        margin-top: 110px;
+    }
+
+    .download_resume {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #return-to-top {
+        background: #ED5A14;
+    }
+}
+/*  ---------------------- X-Small Device end ----------------------  */
+
+/*  ---------------------- Small Device Start ----------------------  */
+@media (min-width: 576px) and (max-width: 767px){
+    .navbar {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    .navbar i {
+        color: #22223B;
+    }
+
+    nav .navbar-nav li a {
+        padding: 20px 60px !important;
+        text-align: center;
+    }
+
+    .navbar-nav {
+        margin-top: 30px;
+        border-bottom: 1px solid #22223B;
+    }
+
+    .banner_box {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .banner_text_box {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .banner_img_box {
+        width: 100%;
+    }
+
+    .banner_img_box .banner_img_background {
+        position: relative;
+    }
+
+    .banner_img_box .banner_img_background {
+        height: 100%;
+        bottom: 0;
+        right: -50%;
+        transform: translateX(-50%);
+    }
+
+    .banner_img_box:hover .banner_img_background {
+        right: -50%;
+    }
+
+    .banner_img_box .banner_img_main {
+        right: 28%;
+        height: 93%;
+    }
+
+    .banner_img_box:hover .banner_img_main {
+        right: 28%;
+    }
+
+    #education {
+        margin-top: 150px;
+    }
+
+    .table > :not(caption) > * > * {
+        width: 40%;
+    }
+
+    #education .table tr .table_text {
+        width: 40%;
+        text-align: center;
+    }
+
+    .p_box {
+        flex-direction: column;
+    }
+
+    .p_cart {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+
+    #publication {
+        margin-top: 120px;
+    }
+
+    #contact_part {
+        margin-top: 120px;
+    }
+
+    .form_inner {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .form_wrapper {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .find_me_box {
+        flex-direction: column;
+    }
+
+    .find_me_wrapper {
+        margin-bottom: 40px;
+    }
+
+    footer {
+        margin-top: 110px;
+        text-align: center;
+    }
+
+    .download_resume {
+        text-align: center;
+        margin-top: 25px;
+    }
+}
+/*  ---------------------- Small Device end ----------------------  */
+
+/*  ---------------------- Medium Device Start ----------------------  */
+@media (min-width: 768px) and (max-width: 991px){
+    .mb-100 {
+        margin-bottom: 75px;
+    }
+
+    .navbar {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    .navbar i {
+        color: #22223B;
+    }
+
+    nav .navbar-nav li a {
+        padding: 20px 60px !important;
+        text-align: center;
+    }
+
+    .navbar-nav {
+        margin-top: 30px;
+        border-bottom: 1px solid #22223B;
+    }
+
+    .banner_text_box {
+        margin-top: 0;
+        width: 60%;
+        padding-right: 50px;
+    }
+
+    .banner_img_box {
+        width: 40%;
+    }
+
+    .banner_img_box .banner_img_background {
+        height: 78%;
+    }
+
+    .banner_img_box:hover .banner_img_background {
+        right: 0;
+    }
+
+    .banner_img_box .banner_img_main {
+        right: 15%;
+        height: 74%;
+    }
+
+    .banner_img_box:hover .banner_img_main {
+        right: 15%;
+    }
+
+    .banner_heading {
+        font-size: 40px;
+    }
+
+    #education {
+        margin-top: 120px;
+    }
+
+    .find_me_box {
+        flex-direction: column;
+    }
+
+    .find_me_wrapper {
+        margin-bottom: 40px;
+    }
+
+    footer {
+        padding: 30px 100px;
+    }
+}
+/*  ---------------------- Medium Device end ----------------------  */
